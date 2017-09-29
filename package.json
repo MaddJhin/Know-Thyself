@@ -4,6 +4,8 @@
   "description": "Let's find out who you are",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
     "fs": "^0.0.1-security"
   },
   "devDependencies": {},
