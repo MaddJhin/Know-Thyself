@@ -1,16 +1,36 @@
 {
-    "name": "cyberpunk",
-    "photo": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
-    "scores": [
-        5,
-        1,
-        4,
-        4,
-        5,
-        1,
-        2,
-        5,
-        4,
-        1
+    "movies": [
+        {
+            "name": "cyberpunk",
+            "photo": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "preferences": [
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        },
+        {
+            "name": "cyberpunk",
+            "photo": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "preferences": [
+                5,
+                1,
+                4,
+                4,
+                5,
+                1,
+                2,
+                5,
+                4,
+                1
+            ]
+        }
     ]
 }
