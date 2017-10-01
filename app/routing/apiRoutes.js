@@ -43,9 +43,8 @@ router.post("/movies", function(req, res){
 			score = genreScore;
 		}	
 	}
-    // return movies[i];
-    
     console.log(movies[lowestIndex]);
+    return res.json(movies[lowestIndex]);
 });
 
 
