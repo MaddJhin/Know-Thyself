@@ -26,9 +26,26 @@ router.use(function timeLog(req, res, next) {
 // });
 
 router.post("/movies", function(req, res){
+    var userPref = req.body.preferences;
+    var movies = genres.movies;
 
+
+    var score = 100;
+	var lowestIndex = 0;
+	for (var i = 0; i < movies.length; i++){
+		var genreScore = 0;
+		for (var x = 0; x < movies[i].preferences.length; x++){
+			var difference = Math.abs(userPref[x] - movies[i].preferences[x]);
+            genreScore += parseInt(difference);
+		}
+		if(genreScore < score) {
+			lowestIndex = i;
+			score = genreScore;
+		}	
+	}
+    // return movies[i];
     
-    console.log(userPref);
+    console.log(movies[lowestIndex]);
 });
 
 
