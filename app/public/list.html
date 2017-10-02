@@ -7,8 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Libraries -->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css' />
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>    
+    <link rel="stylesheet" href="./../css/style.css">
 
     <title>Sci Fi</title>
 </head>
@@ -50,7 +54,8 @@
     function GetList(object) {
         var card = $('<div>');
         card.addClass('card')
-            .css('width', "20rem");
+            .css('width', "20rem")
+            
         var body = $('<div>');
         body.addClass('card-body');
         
@@ -60,6 +65,7 @@
 
         var img = $('<img>');
         img.addClass('card-img-top')
+            .css('height', '15rem')
             .attr('src', object.url)
             .attr('alt', object.name);
 
