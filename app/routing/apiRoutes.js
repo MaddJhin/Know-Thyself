@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const router = express.Router();
 const path = require('path');
 
-// const fs = require('fs');
-// const friends = require("../data/friends.json");
+const fs = require('fs');
+const friends = require("../data/friends.json");
 
 const genres = require("../data/movies.json");
  
@@ -16,19 +16,22 @@ router.use(function timeLog(req, res, next) {
 
 // Routing
 // =========================================================================
-// router.get("/friends", function (req, res, next) {
-    // friends.profiles.push(newFriend);
-    // fs.writeFile('./app/data/movies.json', JSON.stringify(friends, null, 2), function (error) {
-    //     if(error) 
-    //         throw error;
-    // });
-    // res.sendFile(path.resolve(__dirname, "../data/friends.json"));
-// });
+router.get("/friends", function (req, res, next) {
+    res.sendFile(path.resolve(__dirname, "../data/friends.json"));
+});
+
+router.post("/friends/add", function (req, res, next) {
+    var newFriend = req.body;
+    friends.profiles.push(newFriend);
+    fs.writeFile('./app/data/friends.json', JSON.stringify(friends, null, 2), function (error) {
+        if(error) 
+            throw error;
+    });
+});
 
 router.post("/movies", function(req, res){
     var userPref = req.body.preferences;
     var movies = genres.movies;
-
 
     var score = 100;
 	var lowestIndex = 0;

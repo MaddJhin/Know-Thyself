@@ -232,6 +232,9 @@
                 console.log(data);
                 DisplayGenre(data);
             });
+
+        $.post('/api/friends/add', newProfile)
+        .done(function (data) {  });
     })
 
     $('#genre-btt').on("click", function (event) {

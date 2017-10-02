@@ -63,9 +63,13 @@
         name.addClass('card-title')
             .html(object.name);
 
+        var button = $('<button>');
+
         var img = $('<img>');
         img.addClass('card-img-top')
             .css('height', '15rem')
+            .css(' background-position', 'center center')
+            .css('background-repeat', 'no-repeat')
             .attr('src', object.url)
             .attr('alt', object.name);
 
