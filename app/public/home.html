@@ -31,7 +31,7 @@
                 <a class="btn btn-primary btn-lg" href="./survey" role="button">Get A Suggestion</a>
             </p>
         </div>
-        <div id="movies-list" class="d-flex flex-wrap">
+        <div id="movies-list" class="d-flex flex-wrap align-content-around">
             
         </div>
     </div>
@@ -49,7 +49,8 @@
 
     function GetList(object) {
         var card = $('<div>');
-        card.addClass('card');
+        card.addClass('card')
+            .css('width', "20rem");
         var body = $('<div>');
         body.addClass('card-body');
         
