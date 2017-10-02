@@ -47,5 +47,9 @@ router.post("/movies", function(req, res){
     return res.json(movies[lowestIndex]);
 });
 
+router.get("/movies/list", function(req, res){
+    res.json(path.resolve(__dirname, "../data/movies.json"));
+});
+
 
 module.exports = router;

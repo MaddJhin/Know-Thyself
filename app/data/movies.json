@@ -2,7 +2,7 @@
     "movies": [
         {
             "name": "Cyberpunk",
-            "photo": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "url": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
             "preferences": [
                 7,
                 6,
@@ -18,7 +18,7 @@
         },
         {
             "name": "Military Science Fiction",
-            "photo": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "url": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
             "preferences": [
                 6,
                 10,
@@ -34,7 +34,7 @@
         },
         {
             "name": "Space Western",
-            "photo": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "url": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
             "preferences": [
                 4,
                 1,
@@ -50,7 +50,7 @@
         },
         {
             "name": "Space Opera",
-            "photo": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "url": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
             "preferences": [
                 2,
                 5,

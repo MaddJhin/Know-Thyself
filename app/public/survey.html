@@ -30,7 +30,7 @@
                 <a class="btn btn-primary btn-lg" href="./" role="button">Browse through our list</a>
             </p>
         </div>
-        <form>
+        <form id="survey">
             <!-- <div class="form-group">
                 <label for="name">Who's Asking?</label>
                 <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">
@@ -187,11 +187,23 @@
             </div>
             <button type="submit" class="btn btn-primary" id="btt-submit">Submit</button>
         </form>
+
+        <div id="genre">
+            <div class="card" style="width: 20rem;">
+                <img id="genre-img" class="card-img-top" src="" alt="Card image cap">
+                <div class="card-body">
+                    <h4 id="genre-name" class="card-title"></h4>
+                    <p id="genre-description" class="card-text"></p>
+                    <button class="btn btn-primary" id="genre-btt">Try Again</button>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 
 <script type="text/javascript">
-
+    $('#genre').hide();
     $('#btt-submit').on("click", function (event) {
         event.preventDefault();
         var newProfile = {
@@ -212,10 +224,23 @@
 
         console.log("Adding Profile " + JSON.stringify(newProfile));
         $.post('/api/movies', newProfile)
-        .done(function(data){
-            console.log(data);
-        });
+            .done(function (data) {
+                console.log(data);
+                DisplayGenre(data);
+            });
     })
+
+    $('#genre-btt').on("click", function (event) {
+        $('#genre').hide();
+        $('#survey').show();
+    });
+
+    function DisplayGenre(obj) {
+        $('#genre-img').attr("src", obj.url);
+        $('#genre-name').html(obj.name);
+        $('#genre').show();
+        $('#survey').hide();
+    }
 
 </script>
 
