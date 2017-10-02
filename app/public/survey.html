@@ -213,7 +213,7 @@
         console.log("Adding Profile " + JSON.stringify(newProfile));
         $.post('/api/movies', newProfile)
         .done(function(data){
-
+            console.log(data);
         });
     })
 
