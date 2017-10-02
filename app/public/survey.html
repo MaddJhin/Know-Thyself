@@ -25,184 +25,189 @@
         </a>
     </nav>
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-3">Find the Right Sci Fi Genre!</h1>
-            <p class="lead">This app will help you select the perfect sci fi genre based on your current mood.</p>
-            <hr class="my-4">
-            <p>Take a survey to get matched or look through our list of genres</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="./list" role="button">Browse through our list</a>
-            </p>
-        </div>
-        <form id="survey">
-            <!-- <div class="form-group">
-                <label for="name">Who's Asking?</label>
-                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">
-            </div> -->
-            <div class="form-group">
-                <label for="option1">Accurate Science and Technology - Doesn't Matter to Accurate as Possible</label>
-                <select class="form-control" id="option1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
+        <div class="row">
+            <div class="jumbotron col-4">
+                <h1 class="display-3">Find the Perfect Sci-Fi Genre!</h1>
+                <p class="lead">This app will help you select the perfect sci fi genre based on your current mood.</p>
+                <hr class="my-4">
+                <p>Take a survey to get matched or look through our list of genres</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="./list" role="button">Browse through our list</a>
+                </p>
             </div>
-            <div class="form-group">
-                <label for="option2">Lawlessness - Total Lawlessness to Military Presence</label>
-                <select class="form-control" id="option2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="option3">Exploration - Not Even Searching to Primary Goal</label>
-                <select class="form-control" id="option3">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="option4">Fantastical Elements - Science Only to Bring on the Space Magic</label>
-                <select class="form-control" id="option4">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="option5">Timeline - Past Societies to Far into the Future</label>
-                <select class="form-control" id="option5">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="option6">State of the World - Vibrant Place to The Apocalypse has come and Gone</label>
-                <select class="form-control" id="option6">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="option7">State of Society - Peaceful Utopia to Oppressive Dystopia</label>
-                <select class="form-control" id="option7">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="option8">Scope - Focused on a City to Epic Events Across the Stars</label>
-                <select class="form-control" id="option8">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="option9">Tied to Our World - Totally Our Planet to Not Even the Same Universe and Timeline</label>
-                <select class="form-control" id="option9">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="option10">Technological Advancement - Retro Tech to Full Body Implants</label>
-                <select class="form-control" id="option10">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <button type="submit" class="btn btn-primary" id="btt-submit">Submit</button>
-        </form>
+            <form id="survey" class="col-8">
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option1">Accurate Science and Technology - Doesn't Matter to Accurate as Possible</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option2">Lawlessness - Total Lawlessness to Military Presence</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option3">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option3">Exploration - Not Even Searching to Primary Goal</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option4">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option4">Fantastical Elements - Science Only to Bring on the Space Magic</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option5">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option5">Timeline - Past Societies to Far into the Future</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option6">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option6">State of the World - Vibrant Place to The Apocalypse has come and Gone</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option7">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option7">State of Society - Peaceful Utopia to Oppressive Dystopia</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option8">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option8">Scope - Focused on a City to Epic Events Across the Stars</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option9">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option9">Tied to Our World - Totally Our Planet to A Galaxy Far Far Away</label>
+                </div>
+                <div class="form-group row">
+                    <select class="form-control col-sm-2 ml-3" id="option10">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <label class="col-sm-9" for="option10">Technological Advancement - Retro Tech to Full Body Implants</label>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-9">
+                        <button type="submit" class="btn btn-primary" id="btt-submit">Submit</button>
+                    </div>
+                </div>
+            </form>
 
-        <div id="genre">
-            <div class="card" style="width: 20rem;">
-                <img id="genre-img" class="card-img-top" src="" alt="Card image cap">
-                <div class="card-body">
-                    <h4 id="genre-name" class="card-title"></h4>
-                    <p id="genre-description" class="card-text"></p>
-                    <button class="btn btn-primary" id="genre-btt">Try Again</button>
+            <div id="genre" class="ml-4">
+                <div class="card" style="width: 20rem;">
+                    <img id="genre-img" class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 id="genre-name" class="card-title"></h4>
+                        <p id="genre-description" class="card-text"></p>
+                        <button class="btn btn-primary" id="genre-btt">Try Again</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
+            <div id="friends">
+
+            </div>
+        </div>
     </div>
 </body>
 
@@ -234,7 +239,7 @@
             });
 
         $.post('/api/friends/add', newProfile)
-        .done(function (data) {  });
+            .done(function (data) { });
     })
 
     $('#genre-btt').on("click", function (event) {
@@ -247,6 +252,10 @@
         $('#genre-name').html(obj.name);
         $('#genre').show();
         $('#survey').hide();
+    }
+
+    function DisplayFriend(obj) {
+
     }
 
 </script>
