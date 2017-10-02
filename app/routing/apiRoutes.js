@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const router = express.Router();
+const path = require('path');
 
-// const path = require('path');
 // const fs = require('fs');
 // const friends = require("../data/friends.json");
 
@@ -48,7 +48,7 @@ router.post("/movies", function(req, res){
 });
 
 router.get("/movies/list", function(req, res){
-    res.json(path.resolve(__dirname, "../data/movies.json"));
+    res.sendFile(path.resolve(__dirname, "../data/movies.json"));
 });
 
 

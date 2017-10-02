@@ -13,12 +13,12 @@
                 10,
                 3,
                 4,
-                9
+                8
             ]
         },
         {
             "name": "Military Science Fiction",
-            "url": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "url": "http://best-sci-fi-books.com/wp-content/uploads/2014/12/military.jpg",
             "preferences": [
                 6,
                 10,
@@ -34,7 +34,7 @@
         },
         {
             "name": "Space Western",
-            "url": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "url": "http://filmjunk.com/images/weblog/2011/08/serenity.jpg",
             "preferences": [
                 4,
                 1,
@@ -50,7 +50,7 @@
         },
         {
             "name": "Space Opera",
-            "url": "https://www.neondystopia.com/wp-content/uploads/2014/10/dystopia-cyberpunk_00353178-846x528.jpg",
+            "url": "http://best-sci-fi-books.com/wp-content/uploads/2014/10/spaceopera_blog.jpg",
             "preferences": [
                 2,
                 5,
@@ -62,6 +62,118 @@
                 10,
                 9,
                 9
+            ]
+        },
+        {
+            "name": "Steam Punk",
+            "url": "http://i0.wp.com/www.scifiideas.com/wp-content/uploads/2011/06/9995fe55d9e7a1c89625b929410364c2.jpg",
+            "preferences": [
+                2,
+                5,
+                3,
+                7,
+                5,
+                5,
+                5,
+                3,
+                4,
+                2
+            ]
+        },  
+        {
+            "name": "Bio Punk",
+            "url": "",
+            "preferences": [
+                8,
+                6,
+                1,
+                8,
+                5,
+                5,
+                8,
+                4,
+                5,
+                9
+            ]
+        },
+        {
+            "name": "Nano Punk",
+            "url": "",
+            "preferences": [
+                9,
+                6,
+                3,
+                5,
+                5,
+                5,
+                10,
+                5,
+                6,
+                10
+            ]
+        },
+        {
+            "name": "Voyages Extraordinare",
+            "url": "",
+            "preferences": [
+                2,
+                9,
+                10,
+                7,
+                3,
+                4,
+                6,
+                4,
+                3,
+                2
+            ]
+        },
+        {
+            "name": "Gothic Science Fiction",
+            "url": "",
+            "preferences": [
+                2,
+                3,
+                3,
+                10,
+                5,
+                5,
+                7,
+                7,
+                3,
+                5
+            ]
+        },
+        {
+            "name": "Mundane Science Fiction",
+            "url": "",
+            "preferences": [
+                10,
+                6,
+                8,
+                1,
+                5,
+                5,
+                6,
+                3,
+                1,
+                5
+            ]
+        },
+        {
+            "name": "SciFi Fantasy",
+            "url": "",
+            "preferences": [
+                1,
+                5,
+                4,
+                10,
+                5,
+                5,
+                7,
+                7,
+                9,
+                4
             ]
         }
     ]

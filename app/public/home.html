@@ -31,13 +31,42 @@
                 <a class="btn btn-primary btn-lg" href="./survey" role="button">Get A Suggestion</a>
             </p>
         </div>
-        <div id="movies-list">
+        <div id="movies-list" class="d-flex flex-wrap">
             
         </div>
     </div>
 </body>
 
 <script type="text/javascript">
+
+    $.get('/api/movies/list')
+    .done(function (data) {
+        console.log(data);
+        for (var i = 0; i < data.movies.length; i++) {
+            GetList(data.movies[i]);
+        }
+    })
+
+    function GetList(object) {
+        var card = $('<div>');
+        card.addClass('card');
+        var body = $('<div>');
+        body.addClass('card-body');
+        
+        var name = $('<h4>')
+        name.addClass('card-title')
+            .html(object.name);
+
+        var img = $('<img>');
+        img.addClass('card-img-top')
+            .attr('src', object.url)
+            .attr('alt', object.name);
+
+        body.append(name);
+        card.append(img);
+        card.append(body);
+        $('#movies-list').append(card);
+    }
 
 </script>
 
