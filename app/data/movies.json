@@ -186,6 +186,40 @@
                 9,
                 4
             ]
+        },
+        {
+            "name": "Apocaliptic Science Fiction",
+            "info": "https://en.wikipedia.org/wiki/Apocalyptic_and_post-apocalyptic_fiction",
+            "url": "",
+            "preferences":[
+                2,
+                1,
+                3,
+                5,
+                7,
+                9,
+                8,
+                4,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "Post-Apocaliptic Science Fiction",
+            "info": "https://en.wikipedia.org/wiki/Apocalyptic_and_post-apocalyptic_fiction",
+            "url": "",
+            "preferences":[
+                2,
+                1,
+                3,
+                5,
+                7,
+                10,
+                9,
+                2,
+                1,
+                4
+            ]
         }
     ]
 }
